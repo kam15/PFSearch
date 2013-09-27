@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PF</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_data_insert">DataInsert</string>
+    <string name="title_activity_sqlite_opener">SQLiteOpener</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="spinner_title">Select your category</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_list_data">ListData</string>
+
+</resources>

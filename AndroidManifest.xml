@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.pf"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.pf.MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name="com.example.pf.DataInsert"
+            android:label="@string/title_activity_data_insert" >
+        </activity>
+        <activity
+            android:name="com.example.pf.SQLiteOpener"
+            android:label="@string/title_activity_sqlite_opener" >
+        </activity>
+        <activity
+            android:name="com.example.pf.SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.pf.ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name="com.example.pf.ListData"
+            android:label="@string/title_activity_list_data" >
+        </activity>
+    </application>
+
+</manifest>
